@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Drag and Drop File Upload</title>
+</head>
+<body>
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Upload Files to Zip (using wwwroot folder)</h3>
+            </div>
+            <div class="card-body register-card-body">
+                <div class="form-row">
+                    <div class="col-md-12" id="dropzone">
+                        <form asp-controller="Method2" autocomplete="off" asp-antiforgery="true" class="dropzone"
+                              id="my-dropzone" enctype="multipart/form-data" asp-action="UploadFiles" method="post">
+                            <div class="dz-message" data-dz-message>
+                                <p>You can drag and drop your files here.</p>
+                                <small><i>Accepted file formats are .jpeg,.png,.jpg,.pdf,.docx,.csv,.xlsx</i></small>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <a type="button" class="btn btn-primary" id="upload-files">Upload Files</a>
+                <a type="button" class="btn btn-success" id="download" asp-controller="Method2" asp-action="DownloadZip">Download Zip</a>
+                <a class="btn btn-danger" id="clear" asp-controller="Method2" asp-action="Clear">Clear</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+@section Scripts {
+    <script>
+        Dropzone.autoDiscover = false;
+        $(function () {
+            var dz = null;
+            $("#my-dropzone").dropzone({
+                autoProcessQueue: false,
+                paramName: "File Upload",
+                maxFilesize: 10, //mb
+                maxThumbnailFilesize: 1, //mb
+                maxFiles: 8,
+                parallelUploads: 8,
+                acceptedFiles: ".jpeg,.png,.jpg,.pdf,.docx,.csv,.xlsx",
+                uploadMultiple: true,
+                addRemoveLinks: true,
+                init: function () {
+                    dz = this;
+                    $("#download").addClass("disabled");
+                    $("#upload-files").addClass("disabled");
+                    this.on("addedfiles", function (files) {
+                        $("#upload-files").removeClass("disabled");
+                    });
+                    $("#upload-files").click(function () {
+                        dz.processQueue();
+                        $(".dz-remove").remove();
+                        $("#download").removeClass("disabled");
+                        $("#clear").removeClass("disabled");
+                    });
+                    $("#download").click(function () {
+                        dz.processQueue();
+                        dz.removeAllFiles();
+                        $("#upload-files").addClass("disabled");
+                        $("#download").addClass("disabled");
+                    });
+                    $("#clear").click(function () {
+                        dz.removeAllFiles();
+                    });
+                },
+                dictRemoveFile: "File Remove"
+            });
+        });
+    </script>
+}
