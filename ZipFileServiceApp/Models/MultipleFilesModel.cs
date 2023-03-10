@@ -10,3 +10,4 @@ public class FormFileModel
     public byte[] Data { get; set; }
     public IFormFile File { get; set; }
 }
+

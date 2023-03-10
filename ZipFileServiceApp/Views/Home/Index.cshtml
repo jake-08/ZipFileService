@@ -1,5 +1,4 @@
-﻿@model ZipFileServiceApp.Models.MultipleFilesModel
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <head>
         <title>Drag and Drop File Upload</title>
@@ -8,7 +7,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="card-title">Upload Files to Zip</h3>
+                <h3 class="card-title">Upload Files to Zip</h3>
                 </div>
                 <div class="card-body register-card-body">
                     <div class="form-row">
@@ -16,7 +15,7 @@
                             <form asp-controller="Home" autocomplete="off" asp-antiforgery="true" class="dropzone"
                               id="my-dropzone" enctype="multipart/form-data" asp-action="UploadFiles" method="post">
                                 <div class="dz-message" data-dz-message>
-                                    <p>You can drag and drop your files here.</p>
+                                <p>You can drag and drop your files here. <i>Max 8 files</i></p>
                                     <small><i>Accepted file formats are .jpeg,.png,.jpg,.pdf,.docx,.csv,.xlsx</i></small>
                                 </div>
                             </form>

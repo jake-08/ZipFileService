@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "oA2tztu747g90LkQGjeIjloWwAAXmN/G0Ng16XKBDYeywj1JwN4Sr/U1lPcmtx54OZ+O/856UAdKBcv6J6fduQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JakeLin\\Documents\\ASP.NET\\ZipFileService\\ZipFileServiceApp\\ZipFileServiceApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JakeLin\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\7.0.3\\microsoft.netcore.app.runtime.win-x86.7.0.3.nupkg.sha512",
+    "C:\\Users\\JakeLin\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\7.0.3\\microsoft.windowsdesktop.app.runtime.win-x86.7.0.3.nupkg.sha512",
+    "C:\\Users\\JakeLin\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\7.0.3\\microsoft.aspnetcore.app.runtime.win-x86.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
