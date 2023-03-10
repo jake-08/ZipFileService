@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "U6aE3ByjuQmh7OcO2o3yRnOzLIrDyn+vX2+8XOTlwzw=",
+  "Hash": "nHRZ8JTex477Gb2wMHtPgMddDjaWQnuPNR9lFizvCqo=",
   "Source": "ZipFileServiceApp",
   "BasePath": "_content/ZipFileServiceApp",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\JakeLin\\Documents\\ASP.NET\\ZipFileService\\ZipFileServiceApp\\wwwroot\\zip-files-win-10.jpg",
+      "SourceId": "ZipFileServiceApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JakeLin\\Documents\\ASP.NET\\ZipFileService\\ZipFileServiceApp\\wwwroot\\",
+      "BasePath": "_content/ZipFileServiceApp",
+      "RelativePath": "zip-files-win-10.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\zip-files-win-10.jpg"
     }
   ]
 }

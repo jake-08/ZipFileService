@@ -245,6 +245,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\JakeLin\\Documents\\ASP.NET\\ZipFileService\\ZipFileServiceApp\\wwwroot\\zip-files-win-10.jpg",
+      "PackagePath": "staticwebassets\\zip-files-win-10.jpg"
+    },
+    {
       "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.ZipFileServiceApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
