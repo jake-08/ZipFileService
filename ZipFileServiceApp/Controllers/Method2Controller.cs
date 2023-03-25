@@ -45,7 +45,7 @@ namespace ZipFileServiceApp.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult DownloadZip(IFormFile filedata)
+        public IActionResult DownloadZip()
         {
             // set zip output file path and zip folder name
             string zipOutputPath = Path.Combine(_webHostEnvironment.WebRootPath, @"result.zip");

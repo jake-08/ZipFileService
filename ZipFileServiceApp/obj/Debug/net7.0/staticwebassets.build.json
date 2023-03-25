@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zAoVkWKAphBlLYz57UvwpumzMjJbeoOy0MK+0q1552M=",
+  "Hash": "j2XkYM74sgBLkMgROnlt85oF71qovLdAxpGL28vUPnk=",
   "Source": "ZipFileServiceApp",
   "BasePath": "_content/ZipFileServiceApp",
   "Mode": "Default",
@@ -83,6 +83,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\JakeLin\\Documents\\ASP.NET\\ZipFileService\\ZipFileServiceApp\\wwwroot\\Files\\5e17d684-9e73-4417-b8f7-b8cbe43003a6.docx",
+      "SourceId": "ZipFileServiceApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JakeLin\\Documents\\ASP.NET\\ZipFileService\\ZipFileServiceApp\\wwwroot\\",
+      "BasePath": "_content/ZipFileServiceApp",
+      "RelativePath": "Files/5e17d684-9e73-4417-b8f7-b8cbe43003a6.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\5e17d684-9e73-4417-b8f7-b8cbe43003a6.docx"
+    },
+    {
+      "Identity": "C:\\Users\\JakeLin\\Documents\\ASP.NET\\ZipFileService\\ZipFileServiceApp\\wwwroot\\Files\\Archer Goals Advice - Requirement Document v1.1_ROAR.docx",
+      "SourceId": "ZipFileServiceApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JakeLin\\Documents\\ASP.NET\\ZipFileService\\ZipFileServiceApp\\wwwroot\\",
+      "BasePath": "_content/ZipFileServiceApp",
+      "RelativePath": "Files/Archer Goals Advice - Requirement Document v1.1_ROAR.docx",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\Archer Goals Advice - Requirement Document v1.1_ROAR.docx"
     },
     {
       "Identity": "C:\\Users\\JakeLin\\Documents\\ASP.NET\\ZipFileService\\ZipFileServiceApp\\wwwroot\\js\\site.js",
